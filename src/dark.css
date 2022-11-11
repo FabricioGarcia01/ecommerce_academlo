@@ -1,0 +1,126 @@
+#modo{
+    border: none;
+    color: black;
+    font-size: 17px;
+    background-color: hsl(206, 4%, 97%);
+    border-radius: 50%;
+    transition: all .3s;
+    display: inline;
+    position: relative;
+    right: -500px;
+}
+
+
+.dark{
+    background-color: hsl(246, 16%, 12%);
+}
+
+.dark .contenedor-menu{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .contenedor-menu nav .menu{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .contenedor-menu nav .menu a{
+    background-color: hsl(246, 16%, 12%); 
+    color: hsl(206, 4%, 97%);
+}
+
+.dark .contenedor{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .contenedor .box1{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .contenedor .box1 .text{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark h1{
+    background-color: hsl(246, 16%, 12%); 
+    color:hsl(206, 4%, 97%);
+}
+
+.dark h5{
+    background-color: hsl(246, 16%, 12%); 
+    color:hsl(206, 4%, 97%);
+}
+
+.dark h4{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .bottons{
+    background-color: hsl(246, 16%, 12%); 
+    color: wheat;
+}
+
+.dark .typesGarments{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .typesGarments .type{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark h3{
+    background-color: hsl(246, 16%, 12%); 
+    color:hsl(206, 4%, 97%);
+}
+
+.dark span{
+    background-color: hsl(246, 16%, 12%); 
+    color:hsl(206, 4%, 97%);
+}
+
+.dark .contenedor-productos{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark .modal-contenedor{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark main{
+    background-color: hsl(246, 16%, 12%); 
+}
+
+.dark img{
+    background-color: hsl(246, 16%, 12%);
+}
+
+.dark .tarjet{
+    background-color: hsl(182, 53%, 74%);
+    color:hsl(182, 53%, 74%);
+}
+
+.dark .tarjet .homePng{
+    background-color: hsl(182, 53%, 74%);
+    color:hsl(182, 53%, 74%);
+}
+
+.dark .fas{
+    background-color: hsl(182, 53%, 74%);
+    color: black;
+}
+.dark #boton-carrito{
+    background-color: hsl(246, 16%, 12%); 
+
+}
+
+.dark .modo{
+    background-color:hsl(182, 53%, 74%);
+    color:  white;
+}
+
+.dark .producto{
+    background-color: hsla(246, 16%, 5%, .5)
+}
+
+.darl .precioProducto{
+    background-color: hsl(246, 16%, 12%); 
+}

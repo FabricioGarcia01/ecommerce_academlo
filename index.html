@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/dark.css">
+</head>
+<body>
+
+    <div class="contenedor contenedor-menu">
+        <nav>
+            <ul class="menu">
+                <li><a href="" >STORE</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <div class="modo" id="modo">
+                    <i class="fas fa-toggle-on"></i>
+                </div>
+                <button id="boton-carrito"><iconify-icon icon="bx:shopping-bag"></iconify-icon><span id="contadorCarrito">0</span></button>
+
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="contenedor">
+
+        <div class="box1">
+
+            <div class="text">
+                <h1>New SweatShirt</h1>
+                <h1>COLLECTIONS 2022</h1>
+                <h5>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</h5>
+                <h4>$14.00</h4>               
+            </div>
+
+            <div class="bottons">
+                <div class="botton1">
+                    <h4><a href="">Discover</a></h4>
+                </div>
+                <div class="botton2">
+                    <h4><a href="">ADD TO CART</a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjet">
+            <img src="./src/img/home.png" class="homePng">
+        </div>
+
+
+    </div>
+
+
+
+    <div class="typesGarments">
+        <div class="type">
+            <h3>Show All</h3>
+            <span>show all products</span>
+        </div>
+
+        <div class="type">
+            <h3>Hoodies</h3>
+            <span>3 products</span>
+        </div>
+        <div class="type">
+            <h3>Shirts</h3>
+            <span>4 products</span>
+        </div>
+        <div class="type">
+            <h3>Sweatshirts</h3>
+            <span>4 products</span>
+        </div>
+    </div>
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                <!-- <div class="productoEnCarrito">
+                    <p>Buzo 1</p>
+                    <p>Precio: $1200</p>
+                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                </div> -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./main.js"></script>
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <script defer src="app.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+
+</body>
+</html>
