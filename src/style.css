@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: hsl(206, 4%, 97%);
 }
 img {
     width: 100%;
@@ -261,4 +260,54 @@ body{
     padding-left: 5.5rem;
     padding-right: 5.5rem;
     align-items: center;
+}
+.load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E94959;
+    z-index: 1000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.information    {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    background-color: hsl(0deg 0% 76%);
+}
+
+.information  ul {
+    padding: 2rem 7rem;
+    background-color: hsl(0deg 0% 76%);
+    list-style-type: none;
+}
+
+.information  li {
+text-decoration: none;
+}
+
+
+.ourInfomation{
+    background-color: hsl(0deg 0% 76%);
+    text-decoration: none;
+}
+
+.ourInfomation{
+    text-decoration: none;
+    background-color: hsl(0deg 0% 76%);
+
+}
+
+.social img{
+    height: 15px;
+    width: 15px;
+}
+
+.social span{
+    padding: 0.7;
 }
